@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    color: #dadada;
+    font-family: jura;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.address {
+    background-color: black;
+    border: 1px solid #dadada30;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
+    background-color: black;
+    border: 1px solid #dadada30;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    background-color: black;
+    color: #dadada;
+    border: 1px solid #dadada30;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: jura;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+    background-color: black;
+    border: 1px solid #dadada30;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 100px;
+    color: #dadada;
+    font-family: jura;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    font-family: jura;
+    color: tomato;
+    height: 30px;
+}
+
+.submit-btn:hover {
+    background-color: tomato;
+    font-family: jura;
+    color: black;
+    height: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.wrapper {
+    max-width: 500px;
+}

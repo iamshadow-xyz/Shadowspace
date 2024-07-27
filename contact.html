@@ -1,42 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7956724319388472"
-            crossorigin="anonymous">
-    </script>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-04Y18FYC34"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-04Y18FYC34');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <h1>My contact details</h1>
-    <p>Kanchanwadi aurangabad, Maharashtra, India</p>
-    <p>Phone No: 9765930817</p>
-    <p>Email ID: iamshadow.xyz@gmail.com</p>
-
-    <form action="mailto:iamshadow.inn@gmail.com" method="post">
-        <label for="">Your Name:</label>
-        <input type="text" name="yourName" value="">
-        <br>
-        <label for="">Your Email:</label>
-        <input type="email" name="yourEmail">
-        <br>
-        <label for="">Message me:</label>
-        <br>
-        <textarea name="yourMessage" id="" rows="10" cols="31"></textarea>
-        <br>
-        <input type="submit" name="" id="">
-    </form>
-
+    <div class="wrapper">
+    <div class="address">
+        <h1>Contact me</h1>
+        <p>Kanchanwadi aurangabad, Maharashtra, India</p>
+        <p>Phone No: 9765930817</p>
+        <p>Email ID: iamshadow.xyz@gmail.com</p>
+    </div>
+    <div class="form">
+        <h1>Your details</h1>
+        <form action="mailto:iamshadow.xyz@gmail.com" method="post">
+            <label for="">Your Name:</label>
+            <input type="text" name="yourName" value="" placeholder="Enter your name">
+            <label for="">Your Email:</label>
+            <input type="email" name="yourEmail" placeholder="Enter your Email">
+            <label for="">Message me:</label>
+            <textarea name="yourMessage" id="" placeholder="Message me"></textarea>
+            <input class="submit-btn" type="submit" name="" id="">
+        </form>
+    </div>
+</div>
 </body>
 </html>
