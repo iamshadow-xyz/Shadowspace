@@ -1,5 +1,0 @@
-User-agent: Unnecessarybot
-Disallow: /
-
-User-agent: *
-Allow: /
