@@ -1,11 +1,10 @@
-// src/main.jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppRoutes from './routes';
-import './index.css';  // Make sure this is included for Tailwind CSS to work
+import App from './App';
+import './index.css'; // Ensure this line is present
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AppRoutes />
+    <App />
   </React.StrictMode>
 );

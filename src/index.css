@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif; /* Apply the Bai Jamjuree font */
+}
+
+.backdrop-blur-md {
+    backdrop-filter: blur(10px);
+}
